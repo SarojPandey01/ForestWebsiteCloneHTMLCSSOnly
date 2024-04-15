@@ -12,27 +12,32 @@ header{
     position: relative;
     background-image: url("./images/navimg.jpg");
     width: 100%;
-    height: 679px;
+    /* height: 679px; */
+    height: 100vh;
+
+
+}
+.navbar{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-
 }
-.logo{
+* .logo{
     font-weight: bolder;
-    font-size: 30px;
+    font-size: 40px;
     text-decoration: none;
     color: var(--white);
-    padding: 25px 0 0 60px;
+    padding: 15px 0 0 60px;
 }
-hader .navbar,ul{
+
+.navbar,ul{
     list-style: none;
 }
-.navbar,ul li{
+.navlist,li{
     position: relative;
     float: left;
 }
-header .navbar,ul li a{
+.nav-list,ul li a{
     text-decoration: none;
     color: var(--white);
     padding: 30px 20px 0 0;
@@ -47,27 +52,40 @@ header .navbar,ul li a:hover{
     color: var(--maincolor);
 }
 .nav-content{
+    position: relative;
+    width: 800px;
+    height: 200px;
     color: var(--white);
-    top: 200px;
+    top: 100px;
+    margin: 20px auto;
 }
 .nav-content1{
+    margin: 10px 0;
     font-size: 2rem;
     text-align: center;
 }
 .nav-content2{
+    margin: 10px 0 15px 0;
     font-weight: bold;
     font-size: 3rem;
     text-align: center;
 }
 .nav-content3{
+    margin: 10px 0;
     text-align: center;
     text-wrap: wrap;
+}
+.nav-button{
+    position: absolute;
+    top: 375px;
+    left: 40%;
+
 }
 .nav-button,button{
     border:none;
     border-radius: 30px;
     margin: 0 15px 0 0;
-    padding:10px 15px ;
+    padding:10px 25px ;
     font-size: 15px;
     font-weight: bold;
 
@@ -88,4 +106,4 @@ header .navbar,ul li a:hover{
 }
 .nav-button2:hover{
     background-color: black;
-}
+} 
