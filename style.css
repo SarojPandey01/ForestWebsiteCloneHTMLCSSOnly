@@ -1,3 +1,4 @@
+/* NavBar Section */
 *{
     margin: 0;
     padding: 0;
@@ -6,6 +7,7 @@
 :root{
     --maincolor: #A3C962;
     --white: #ffffff;
+    --black: #000000;
 }
 
 header{
@@ -107,3 +109,27 @@ header .navbar,ul li a:hover{
 .nav-button2:hover{
     background-color: black;
 } 
+/* Nav Bar End */
+
+/* Leaf or second section Start */
+.about{
+    width: 100%;
+    height: 750px;
+    background-color: var(--white);
+}
+.about-content{
+width: 600px;
+margin: 70px auto;
+}
+.ap1{
+    font-size: 20px;
+    color: var(--maincolor);
+    font-weight: bold;
+    text-align: center;
+}
+.ap2{
+    font-size: 27px;
+    font-weight: bold;
+    color: var(--black);
+
+}
