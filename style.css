@@ -8,6 +8,7 @@
     --maincolor: #A3C962;
     --white: #ffffff;
     --black: #000000;
+    --lorem: #676662;
 }
 
 header{
@@ -131,5 +132,33 @@ margin: 70px auto;
     font-size: 27px;
     font-weight: bold;
     color: var(--black);
+    padding-top: 10px;
 
+}
+.ap3{
+    color: var(--lorem);
+    text-align: center;
+    font-size: large;
+    padding: 30px 0 0 0;
+
+}
+.ap4{
+    color: var(--lorem);
+    text-align: center;
+    font-size: large;
+    padding: 15px 0 0 0;
+    
+
+}
+.leaf-img{
+    display: flex;
+    margin: 5px 0 0 160px;
+}
+.about-us{
+    margin: 0 150px 0 100px;
+}
+.ab-1{
+    color: var(--maincolor);
+    font-size: 22px;
+    font-weight: bold;
 }
