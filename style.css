@@ -184,3 +184,79 @@ margin: 70px auto;
 .img75{
     padding-left: 8px;
 }
+/* End Of About Us */
+
+/* start of serrvice */
+.service{
+    position: relative;
+    background-image: url(./images/serviceimg1.jpg);
+    width: 100%;
+    height: 679px;
+  
+}
+.service-upper{
+    display: flex;
+    flex-wrap: wrap;  
+
+}
+.service-l-1{
+    width: 50%;
+ 
+}
+.service-l-1 p{
+    color: var(--white);
+    text-align: right;
+    padding-top: 100px;
+    padding-left: 160px;
+    font-size: 18px;
+    line-height: 2.5cap;
+}
+.provide{
+    color: var(--maincolor);
+    font-size: 22px;
+    padding: 95px 0 0 30px;
+}
+.our{
+    color: var(--white);
+    padding: 0 0 0 30px;
+    font-size: 40px;
+}
+.service-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;   
+     padding: 20px 40px 10px 50px;
+
+}
+.s-box-1, .s-box-2, .s-box-3, .s-box-4, .s-box-4, .s-box-5, .s-box-6{
+    width: 350px;
+    height: 209px;
+    background-color: var(--white);
+    margin-top: 20px;
+    text-align: center;
+    padding: 30px;
+}
+.s-box-1{
+    margin-left: 50px;
+}
+.s-box-4{
+    margin-left: 50px;
+}
+.s-box-3{
+    margin-right: 50px;
+}
+.s-box-6{
+    margin-right: 50px;
+}
+.service-logo{
+ font-size: 40px;
+   } 
+   .service-first{
+    padding: 20px 0 5px 0;
+    color: var(--maincolor);
+    font-size: 25px;
+   }  
+   .service-second{
+color: var(--lorem);  
+line-height: 2.5cap;
+ }
