@@ -331,7 +331,7 @@ button {
 }
 /* End Of Random */
 /* Start of Features */
-.feature{
+.feature {
   position: relative;
   width: 100%;
   height: 679px;
@@ -352,44 +352,44 @@ button {
   font-size: 18px;
   line-height: 2.5cap;
 }
-.feature-work{
+.feature-work {
   color: var(--maincolor);
   font-size: 22px;
   padding: 70px 0 0 30px;
 }
-.feature-our{
+.feature-our {
   color: var(--black);
   padding: 0 0 0 30px;
   font-size: 40px;
 }
-.feature-lower{
+.feature-lower {
   display: flex;
   flex-wrap: wrap;
   margin: 50px 100px 0 100px;
 }
-.feature-box1{
+.feature-box1 {
   display: flex;
   flex-wrap: wrap;
   width: 650px;
   height: 120px;
   background-color: var(--white);
-  box-shadow: 5px 0 10px 10px #62796C;
+  box-shadow: 5px 0 10px 10px #62796c;
   border: none;
   border-radius: 10px;
   margin: 0 0 20px 70px;
 }
-.feature-box2{
+.feature-box2 {
   display: flex;
   flex-wrap: wrap;
   width: 610px;
   height: 120px;
   background-color: var(--white);
-  box-shadow: 0 0 10px 10px #62796C;
+  box-shadow: 0 0 10px 10px #62796c;
   border: none;
   border-radius: 10px;
   margin: 33px 0 20px 110px;
 }
-.feature-box3{
+.feature-box3 {
   display: flex;
   flex-wrap: wrap;
   text-wrap: wrap;
@@ -397,34 +397,107 @@ button {
   width: 650px;
   height: 120px;
   background-color: var(--white);
-  box-shadow: 0 0 10px 10px #62796C;
+  box-shadow: 0 0 10px 10px #62796c;
   border: none;
   border-radius: 10px;
   margin: 33px 0 20px 70px;
 }
-.f-logo{
+.f-logo {
   width: 100px;
   height: 100px;
 }
-.f-logo i{
+.f-logo i {
   font-size: 30px;
   text-align: center;
   padding: 40px 40px 0 80px;
 }
-.f-text{
+.f-text {
   width: 500px;
   height: 110px;
 }
-.f-text-1{
+.f-text-1 {
   font-size: 25px;
   color: var(--maincolor);
   padding: 10px 30px 5px 100px;
 }
-.f-text-2{
+.f-text-2 {
   font-size: 18px;
   text-wrap: wrap;
   color: var(--lorem);
   padding: 5px 30px 15px 100px;
   line-height: 2cap;
-
 }
+/* End of Feature sectiion */
+/* Our Plans Section start */
+
+.our-plan {
+  background-image: url(./images/navimg.jpg);
+  position: relative;
+  width: 100%;
+  height: 651px;
+}
+.plan-upper {
+  display: flex;
+}
+.plan-our {
+  width: 50%;
+}
+.plan-plans {
+  color: var(--maincolor);
+  font-size: 22px;
+  padding: 95px 0 0 30px;
+  text-align: right;
+}
+.plan-prices {
+  color: var(--white);
+  padding: 0 0 0 30px;
+  font-size: 40px;
+  text-align: right;
+}
+
+.plan-lo {
+  color: var(--white);
+  padding: 105px 200px 0 25px;
+  font-size: 18px;
+  line-height: 2cap;
+}
+.lower-plan {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0 60px 0 60px;
+}
+.lower-div1 {
+  width: 250px;
+  height: 370px;
+  background-color: var(--white);
+  margin-top: 40px;
+  text-align: center;
+}
+.plan-div-top {
+  padding: 15px 0 20px 0;
+  color: var(--maincolor);
+  font-size: 30px;
+}
+.fifty {
+  color: var(--maincolor);
+  font-size: 30px;
+}
+.plan-div-upper-middle {
+  font-size: 20px;
+}
+.plan-div-middle {
+  padding: 25px 75px 0 75px;
+  color: var(--lorem);
+  line-height: 2.5cap;
+}
+.plan-div-bottom {
+  background-color: var(--maincolor);
+  color: var(--white);
+  margin-top: 13px;
+  transition: 1s;
+}
+.plan-div-bottom:hover {
+  background-color: var(--black);
+}
+/* End of Our Plan */
