@@ -155,10 +155,32 @@ margin: 70px auto;
     margin: 5px 0 0 160px;
 }
 .about-us{
-    margin: 0 150px 0 100px;
+    margin: 0 130px 0 100px;
 }
 .ab-1{
     color: var(--maincolor);
     font-size: 22px;
     font-weight: bold;
+}
+.ab-2{
+    font-size: 32px;
+    margin: 5px 0 10px 0;
+    color: var(--black);
+
+}
+.ab-3{
+    font-size: 18px;
+    color: var(--lorem);
+    line-height: 2.5cap;
+
+}
+.img-per{
+    list-style: none;
+    margin-top: 20px;
+}
+.img-per li{
+    padding: 5px;
+}
+.img75{
+    padding-left: 8px;
 }
