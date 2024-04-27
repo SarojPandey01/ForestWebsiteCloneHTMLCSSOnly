@@ -561,22 +561,21 @@ button {
 }
 /* End of our clients section */
 /* Save forest and Nature section */
-.save-forest{
+.save-forest {
   position: relative;
   width: 100%;
   height: 330px;
   background-color: var(--maincolor);
 }
-.save-forest-main{
+.save-forest-main {
   /* width: 1140px;
   height: 280px; */
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
-
 }
-.save-btn{
+.save-btn {
   display: flex;
   flex-direction: column;
   margin: 70px 0 40px 0;
@@ -584,27 +583,26 @@ button {
   width: 70px;
   border-radius: 100%;
   align-items: center;
-
 }
 
-.play{
+.play {
   font-size: 40px;
   margin: 5px 0 0 4px;
 }
-.save-text{
+.save-text {
   font-size: 35px;
   color: var(--white);
   margin-top: 15px;
   margin-bottom: 20px;
 }
-.save-lorem{
+.save-lorem {
   color: var(--lorem);
   font-size: 18px;
 }
-.save-btn:hover{
+.save-btn:hover {
   background-color: var(--black);
 }
-.save-btn:hover .play{
+.save-btn:hover .play {
   color: var(--white);
 }
 /* End of Save forest and Nature section */
@@ -640,45 +638,41 @@ button {
   padding: 0 0 0 30px;
   font-size: 40px;
 }
-.volunteer-lower{
+.volunteer-lower {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-content: center;
   margin: 0 100px 0 100px;
 }
-.volunteer-lower-1{
+.volunteer-lower-1 {
   width: 285px;
   height: 459px;
   margin-top: 80px;
-
 }
-.volunteer-lily{
+.volunteer-lily {
   margin: 20px 0 10px 0;
   color: var(--maincolor);
   font-size: 25px;
   text-align: center;
 }
-.volunteer-vol{
+.volunteer-vol {
   font-size: 20px;
   color: var(--black);
   margin: 0 0 20px 0;
   text-align: center;
-
 }
-.vol-logo{
+.vol-logo {
   font-size: 20px;
   padding: 0 5px 0 5px;
-
 }
-.volunteer-icons{
+.volunteer-icons {
   text-align: center;
-
 }
 /* End of volunteer section  */
 /* Start of blog section */
 
-.blog{
+.blog {
   position: relative;
   background-image: url(./images/b1.jpg);
   width: 100%;
@@ -696,7 +690,7 @@ button {
   padding: 80px 0 0 30px;
   text-align: right;
 }
-.blog-blog{
+.blog-blog {
   color: var(--white);
   padding: 0 0 0 30px;
   font-size: 40px;
@@ -709,39 +703,177 @@ button {
   font-size: 18px;
   line-height: 2cap;
 }
-.bolg-lower{
+.bolg-lower {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
   padding: 0 100px 0 100px;
 }
-.blog-lower-1{
+.blog-lower-1 {
   width: 350px;
   height: 484px;
   background-color: var(--white);
   padding: 20px;
   margin: 70px 0 0 0;
 }
-.lower-blog-text1{
+.lower-blog-text1 {
   padding: 5px 0 10px 0;
   font-size: 18px;
 }
-.lower-blog-text2{
+.lower-blog-text2 {
   font-size: 25px;
   color: var(--maincolor);
   padding-bottom: 25px;
 }
-.lower-blog-text3{
+.lower-blog-text3 {
   font-size: 18px;
   line-height: 2.2cap;
   color: var(--lorem);
-
 }
-.lower-blog-text4{
+.lower-blog-text4 {
   padding-top: 20px;
   font-size: 15px;
+}
+.lower-blog-span {
+  margin-left: 200px;
+}
+/* Blog section End */
+/* Start of Contact Us section */
+.contact-us {
+  position: relative;
+  width: 100%;
+  height: 700px;
+  background-color: var(--white);
+}
+.contact-upper {
+  display: flex;
+  flex-wrap: wrap;
+}
+.contact-l-1 {
+  width: 50%;
+}
+.contact-l-1 p {
+  color: var(--lorem);
+  text-align: right;
+  padding-top: 75px;
+  padding-left: 160px;
+  font-size: 18px;
+  line-height: 2.5cap;
+}
+.contact-get {
+  color: var(--maincolor);
+  font-size: 22px;
+  padding: 70px 0 0 30px;
+}
+.contact-our {
+  color: var(--black);
+  padding: 0 0 0 30px;
+  font-size: 40px;
+}
+.contact-lower {
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 90px 90px 0 90px;
+}
+.contact-lower-1 {
+  width: 570px;
+  height: 385px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 10px 0 10px;
+}
+.First-name {
+  padding: 10px;
+  margin-bottom: 13px;
+  border: none;
+  border-bottom: 2px solid black;
+  background-color: #e4ece8;
+}
+::placeholder {
+  color: rgb(0, 0, 0);
+  opacity: 1;
+  font-size: 18px;
+  padding: 5px;
+}
+.email {
+  padding: 10px;
+  margin-bottom: 13px;
+  border: none;
+  border-bottom: 2px solid black;
+  background-color: #e4ece8;
+}
+.phone {
+  padding: 10px;
+  margin-bottom: 13px;
+  border: none;
+  border-bottom: 2px solid black;
+  background-color: #e4ece8;
+}
+.message {
+  padding: 10px;
+  margin-bottom: 13px;
+  border: none;
+  border-bottom: 2px solid black;
+  background-color: #e4ece8;
+}
+.contact-bttn {
+  background-color: var(--maincolor);
+}
+.contact-bttn:hover {
+  background-color: var(--black);
+  color: var(--white);
+}
+.contact-lower-2 {
+  width: 570px;
+  height: 385px;
+}
+.contact-lower-feature-1 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 540px;
+  height: 97px;
+  margin: 0 0 10px 30px;
+}
+.contact-logo {
+  width: 112px;
+  height: 97px;
+  align-items: center;
+}
+.contact-logo i {
+  font-size: 30px;
+  text-align: center;
+  padding: 20px 0 0 25px;
+}
+.contact-text-lower {
+  width: 427px;
+  height: 97px;
+  overflow: hidden;
+}
+.contact-text-1 {
+  font-size: 30px;
+  color: var(--maincolor);
+  padding-bottom: 10px;
+}
+.contact-text-2 {
+  font-size: 18px;
+  color: var(--lorem);
+}
+.contact-lower-feature-2 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 540px;
+  height: 97px;
+  margin: 0 0 10px 30px;
+}
+.contact-lower-feature-3 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 540px;
+  height: 97px;
+  margin: 0 0 0 30px;
+}
+/* End of contact us  */
+/* Start of Map  section */
 
-}
-.lower-blog-span{
-margin-left: 200px;
-}
