@@ -676,3 +676,72 @@ button {
 
 }
 /* End of volunteer section  */
+/* Start of blog section */
+
+.blog{
+  position: relative;
+  background-image: url(./images/b1.jpg);
+  width: 100%;
+  height: 767px;
+}
+.blog-upper {
+  display: flex;
+}
+.blog-our {
+  width: 50%;
+}
+.blog-event {
+  color: var(--maincolor);
+  font-size: 22px;
+  padding: 80px 0 0 30px;
+  text-align: right;
+}
+.blog-blog{
+  color: var(--white);
+  padding: 0 0 0 30px;
+  font-size: 40px;
+  text-align: right;
+}
+
+.blog-lo {
+  color: var(--white);
+  padding: 90px 200px 0 25px;
+  font-size: 18px;
+  line-height: 2cap;
+}
+.bolg-lower{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 0 100px 0 100px;
+}
+.blog-lower-1{
+  width: 350px;
+  height: 484px;
+  background-color: var(--white);
+  padding: 20px;
+  margin: 70px 0 0 0;
+}
+.lower-blog-text1{
+  padding: 5px 0 10px 0;
+  font-size: 18px;
+}
+.lower-blog-text2{
+  font-size: 25px;
+  color: var(--maincolor);
+  padding-bottom: 25px;
+}
+.lower-blog-text3{
+  font-size: 18px;
+  line-height: 2.2cap;
+  color: var(--lorem);
+
+}
+.lower-blog-text4{
+  padding-top: 20px;
+  font-size: 15px;
+
+}
+.lower-blog-span{
+margin-left: 200px;
+}
