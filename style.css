@@ -608,3 +608,71 @@ button {
   color: var(--white);
 }
 /* End of Save forest and Nature section */
+/* <!-- Start of volunteer section --> */
+.volunteer {
+  position: relative;
+  width: 100%;
+  height: 743px;
+  background-color: var(--white);
+}
+.volunteer-upper {
+  display: flex;
+  flex-wrap: wrap;
+}
+.volunteer-l-1 {
+  width: 50%;
+}
+.volunteer-l-1 p {
+  color: var(--lorem);
+  text-align: right;
+  padding-top: 75px;
+  padding-left: 160px;
+  font-size: 18px;
+  line-height: 2.5cap;
+}
+.volunteer-we {
+  color: var(--maincolor);
+  font-size: 22px;
+  padding: 70px 0 0 30px;
+}
+.volunteer-our {
+  color: var(--black);
+  padding: 0 0 0 30px;
+  font-size: 40px;
+}
+.volunteer-lower{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: center;
+  margin: 0 100px 0 100px;
+}
+.volunteer-lower-1{
+  width: 285px;
+  height: 459px;
+  margin-top: 80px;
+
+}
+.volunteer-lily{
+  margin: 20px 0 10px 0;
+  color: var(--maincolor);
+  font-size: 25px;
+  text-align: center;
+}
+.volunteer-vol{
+  font-size: 20px;
+  color: var(--black);
+  margin: 0 0 20px 0;
+  text-align: center;
+
+}
+.vol-logo{
+  font-size: 20px;
+  padding: 0 5px 0 5px;
+
+}
+.volunteer-icons{
+  text-align: center;
+
+}
+/* End of volunteer section  */
