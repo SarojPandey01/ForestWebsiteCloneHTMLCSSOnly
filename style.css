@@ -78,10 +78,12 @@ ul li a:hover {
   margin: 10px 0;
   text-align: center;
   text-wrap: wrap;
+  line-height: 2.5cap;
+  font-size: 18px;
 }
 .nav-button {
   position: absolute;
-  top: 375px;
+  top: 400px;
   left: 40%;
 }
 .nav-button,
@@ -663,7 +665,7 @@ button {
   text-align: center;
 }
 .vol-logo {
-  font-size: 20px;
+  font-size: 30px;
   padding: 0 5px 0 5px;
 }
 .volunteer-icons {
@@ -876,4 +878,95 @@ button {
 }
 /* End of contact us  */
 /* Start of Map  section */
+.map{
+  border: 4px solid var(--white);
+}
+/* end of map section */
+.footer-container{
+  position: relative;
+  width: 100%;
+  height: 210px;
+  background-color: var(--maincolor);
+
+}
+.footer-main{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+
+}
+.footer-first{
+  text-align: center;
+  padding: 20px 0 30px 0;
+  color: var(--white);
+  font-size: 18px;
+}
+.footer-first span{
+  color: var(--black);
+}
+.footer-second{
+  text-align: center;
+}
+.footer-second i{
+  font-size: 30px;
+  padding: 0 5px 10px 5px;
+}
+.footer-third{
+  text-align: center;
+  padding: 20px 0 0 0;
+  font-size: 40px;
+}
+.footer-third i{
+  color: var(--black);
+
+}
+/* end of footer section */
+/* Start of Aside fixed element */
+.aside-container{
+  position: fixed;
+  top: 60px;
+  right: 0px;
+  width: 90px;
+  height: 400px;
+  background-color: #0D1326;
+  border-left: 0px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+
+}
+.as-it i{
+  color: #8F95A8;
+  font-size: 20px;
+  padding: 15px 30px 15px 30px ;
+  transition: 1.5s;
+
+}
+.as-it p{
+  color: #8F95A8;
+  text-align: center;
+  transition: 1.5s;
+
+}
+.as-it{
+  height: 100px;
+  width: 90px;
+  font-size: 18px;
+}
+.aside-1 i{
+  padding: 40px 30px 40px 35px;
+
+}
+.aside-1{
+  border-bottom: 1px solid var(--white);
+
+}
+.as-it:hover i{
+  color: var(--white);
+}
+.as-it:hover p{
+  color: var(--white);
+}
+/* The End */
 
