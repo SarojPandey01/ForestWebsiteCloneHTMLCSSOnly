@@ -501,3 +501,63 @@ button {
   background-color: var(--black);
 }
 /* End of Our Plan */
+/* Start of Our Clint */
+.clients {
+  position: relative;
+  width: 100%;
+  height: 650px;
+  background-color: var(--white);
+}
+.client-upper {
+  display: flex;
+  flex-wrap: wrap;
+}
+.client-l-1 {
+  width: 50%;
+}
+.client-l-1 p {
+  color: var(--lorem);
+  text-align: right;
+  padding-top: 75px;
+  padding-left: 160px;
+  font-size: 18px;
+  line-height: 2.5cap;
+}
+.client-what {
+  color: var(--maincolor);
+  font-size: 22px;
+  padding: 70px 0 0 30px;
+}
+.client-our {
+  color: var(--black);
+  padding: 0 0 0 30px;
+  font-size: 40px;
+}
+.client-lower{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 0 100px 0 100px;
+}
+.client-lower-1{
+  width: 350px;
+  height: 362px;
+  margin-top: 80px;
+
+
+}
+.ted{
+  font-size: 25px;
+  color: var(--maincolor);
+  padding: 20px 0 10px 0;
+}
+.ted-client{
+  font-size: 20px;
+  color: var(--black);
+  padding: 0 0 20px 0;
+}
+.ted-client-lorem{
+  color: var(--lorem);
+  line-height: 2.5cap;
+  font-size: 18px;
+}
