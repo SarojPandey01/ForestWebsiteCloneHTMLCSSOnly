@@ -178,6 +178,12 @@ button {
 .img75 {
   padding-left: 8px;
 }
+/* About Us Respossive part */
+@media only screen and (max-width: 600px) {
+
+}
+
+
 /* End Of About Us */
 
 /* start of serrvice */
